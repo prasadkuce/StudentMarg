@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentMarg.Web", "StudentMarg.Web\StudentMarg.Web.csproj", "{6793AD55-C1FD-4668-942C-8D4734B95D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentMarg.Web.Tests", "StudentMarg.Web.Tests\StudentMarg.Web.Tests.csproj", "{7CE98A04-5FF6-40B6-BB50-301B76EBEAEF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6793AD55-C1FD-4668-942C-8D4734B95D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6793AD55-C1FD-4668-942C-8D4734B95D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6793AD55-C1FD-4668-942C-8D4734B95D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6793AD55-C1FD-4668-942C-8D4734B95D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE98A04-5FF6-40B6-BB50-301B76EBEAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE98A04-5FF6-40B6-BB50-301B76EBEAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE98A04-5FF6-40B6-BB50-301B76EBEAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE98A04-5FF6-40B6-BB50-301B76EBEAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
